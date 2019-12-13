@@ -1,0 +1,427 @@
+body {
+	font-size: 14px;
+    color: #333;
+    background-color: #fff;
+    letter-spacing: 1px;
+}
+
+h2{
+    text-align: center;
+    padding-bottom: 18px;
+}
+
+.overlay {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	
+	background-color: rgba(0, 0, 0, 0.4);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../img/slide2.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+
+.titleMessage {
+	position: absolute;
+    width: 100%;
+    height: 250px;
+    top: 60%;
+    cursor: default;
+    text-align: center;
+    margin-top: -125px;
+}
+
+.titleMessage .heading p {
+	color: #fff;
+    text-shadow: 0px 2px 5px rgba(0, 0, 0, 0.4);
+    font-weight: 100;
+    letter-spacing: 7px;
+}
+
+.titleMessage .heading .main {
+	font-size: 50px;
+}
+
+.titleMessage .heading .sub {
+	font-size: 23px;
+}
+
+.section {
+	padding: 100px 0;
+}
+
+.aboutImage {
+	max-height: 600px;
+    width: 460px;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    align-content: center;
+    padding-left: 40px;
+}
+
+.info p{
+    padding-top:  15px;
+    font-size: 20px;
+    text-align: auto;
+   
+}
+
+.works-step p{
+    font-size: 16px;
+    margin: 0px;
+    margin-left: 70px;
+    padding: 2px;
+}
+
+.works-step span{
+    font-size: 14px;
+    
+}
+
+.works-step {
+   margin-bottom: 40px;
+}
+
+.works-step:last-of-type {
+    margin-bottom: 60px;
+}
+
+.works-step div {
+    color: #298f85;
+    font-size: 150%;
+    height: 54px;
+    width: 54px;
+    border: 2px solid #298f85;
+    border-radius: 50%;
+    display: inline-block;
+    text-align: center;
+    margin-right: 25px;
+    margin-left: 50px;
+    float: left;
+    padding: 5px;
+    padding-top: 7px;
+}
+
+.btn-app:link,
+.btn-app:visited {
+    border: 0;
+}
+
+.btn-app ion-icon {
+    height: 60px;
+    width: 60px;
+    margin-left: 5px;
+    color: #298f85;
+}
+
+.btn-app ion-icon:first-of-type{
+    margin-left: 100px;
+}
+
+.btn-app ion-icon:hover{
+    color: #0e76a8;
+}
+
+#skills,#skills2,
+.contactSection {
+	background-color: #298f85;
+	color: #fff;
+}
+
+#skill1{
+    background-color: #fff;
+    color: #fff;
+}
+
+.skill {
+	text-align: center;
+	margin-left: 10px;
+}
+
+.chart {
+	position: relative;
+    width: 152px;
+    height: 152px;
+    display: inline-block;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.chart canvas {
+	position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.chart .percent {
+	color: #000;
+    line-height: 152px;
+    display: inline-block;
+    font-size: 35px;
+}
+
+.chart .percent:after {
+	content: '%';
+}
+
+.skillnum ion-icon{
+    margin-top: 45px;
+    font-size: 70px;
+    color: #444;
+}
+
+.squareItem {
+	margin-top: 30px;
+    position: relative;
+}
+
+.squareInnerContainer {
+	position: relative;
+	padding: 50px 15px 35px;
+	text-align: center;
+	border: 2px solid #444;
+	border-top: none;
+}
+
+.squareInnerContainer:before,
+.squareInnerContainer:after {
+	content: '';
+	position: absolute;
+	top: 0px;
+	width: 30%;
+	border-bottom: 2px solid #444;
+}
+
+
+.squareInnerContainer:before {
+	right: 0px;
+}
+
+.squareInnerContainer:after {
+	left: 0px
+}
+
+
+.squareContent h2 {
+	font-size: 48px;
+	margin-bottom: 10px;
+	font-weight: 400;
+	color: #298f85;
+}
+
+.squareContent h2 span{
+    font-size: 13px;
+}
+
+.squareContent h3 {
+	font-size: 15px;
+	font-weight: 600;
+	margin: 0;
+}
+
+.squareContent h3 span{
+    font-size: 11px;
+    float: right;
+    padding-right: 50px;
+    margin-top: 2px;
+}
+
+.squareIcon {
+	position: absolute;
+    left: 50%;
+    top: -30px;
+    width: 40%;
+    height: 60px;
+    font-size: 45px;
+    margin-left: -20%;
+    color: #444;
+}
+
+.contactButton {
+	color: #fff;
+    padding: 15px 20px;
+    display: inline-block;
+    margin-top: 20px;
+    border: 1px solid #fff;
+    border-radius: 2px;
+}
+
+.contactButton:hover {
+	text-decoration: none;
+	color: #298f85;
+	background-color: #fff;
+}
+
+#portfolio{
+    padding-bottom: 2px;
+}
+
+.filter a {
+	color: #bdc3c7;
+	border: 1px solid #bdc3c7;
+	padding: 10px 18px;
+	display: block;
+}
+
+.filter li {
+	display: inline-block;
+	padding: 5px
+}
+
+.filter .current {
+	background-color: #298f85;;
+	border-color: #298f85;
+	color: #fff;
+}
+
+.filter {
+	text-align: center;
+	width: 100%;
+}
+
+.section .heading {
+	text-align: center;
+	padding-bottom: 10px;
+	width: 100%;
+}
+
+
+.photos {
+    padding: 0;
+    list-style: none;
+    width: 100%;
+    margin: 0;
+}
+
+.showcase {
+    padding: 0;
+    margin: 0;
+}
+
+.showcase li {
+    display: block;
+    float: left;
+    width: 25%;
+    margin: 0;
+}
+
+.photo {
+    width: 100%;
+    margin: 0;
+    overflow: hidden;
+    background-color: #000;
+}
+
+.photo img {
+    opacity: 0.7;
+    width: 100%;
+    height: 250px;
+    transform: scale(1.15);
+    transition: transform 0.5s, opacity 0.5s;
+}
+
+.photo img:hover {
+    opacity: 1;
+    transform: scale(1.03);
+}
+
+
+.copyrightSection {
+    
+	background-color: #298f85;
+	color: #fff;
+	padding: 30px 5px;
+}
+
+.copyrightSection p {
+	margin: 0;
+}
+
+.copyrightSection p i {
+	font-size: 20px;
+    padding-top: 30px;
+}
+
+
+
+#navigation {
+
+    padding: 20px 10px;
+    z-index: 100;
+    width: 100%;
+    
+}
+
+#navigation ion-icon {
+    height: 35px;
+    width: 35px;
+}
+
+#navigation ion-icon:hover{
+    color: #9f9f9f;
+}
+
+#navigation li {
+	padding: 0 10px;
+}
+
+#navigation li a {
+	color: #fff;
+}
+
+#navigation li a:hover,
+#navigation li a:active {
+    border-bottom: 1px solid #fff;
+}
+
+.navbar-brand,
+.navbar-brand:hover {
+	color: #fff;
+}
+
+.navbar-toggler-icon {
+	background: url(../img/icons/menu.png);
+	background-size: 100%;
+}
+
+.fixedNav #navigation {
+	position: fixed;
+	top: 0;
+    background-color: #298f85;
+    box-shadow: 0 2px 2px #efefef;
+    z-index: 100;
+}
+
+.loader {
+	width: 100%;
+	height: 100%;
+	background-color: #fff;
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	z-index: 1000;
+}
+
+.loader .inner {
+	width: 100%;
+	height: 100%;
+	background: url(../img/loader.gif) center center no-repeat;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
